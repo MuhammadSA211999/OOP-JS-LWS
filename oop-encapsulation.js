@@ -32,12 +32,12 @@ class Player {
         const ageDate = new Date(diffMilliSec)
         // new Date() method UTC time return kore
         /*
-        **Date.now() method call kore ajker date pawa zay.
-        **new Date() method argument recive kore. new Date() method argument hisabe recive kora value ke UTC time e convert kore return kore.Zetake **timestapm bola hoy.
+        ** Date.now() method call kore ajker date millisecond e pawa zay.
+        ** new Date() method argument recive kore. new Date() method argument hisabe recive kora value ke UTC time e convert kore return kore.Zetake **timestapm bola hoy.
         *** new Date() => UTC timestamp return kore
-        **getTime() method kuno parametre/argument recieve kore na.
-        **lastDay.getTime()
-        getTime() method milliseconds timestamp return kore.
+        ** getTime() method kuno parametre/argument recieve kore na.
+        ** lastDay.getTime()
+        ** getTime() method milliseconds value return kore.
 
         */
         const ageNum = Math.abs(ageDate.getUTCFullYear() - 1970)
