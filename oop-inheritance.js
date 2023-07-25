@@ -18,6 +18,7 @@ class Cricketer extends Player {
     }
     hobby(type, size) {
         const hobbyDetails = `${this.name} try to make a garden for ${type} in ${size} acre`
+        //parent class Player e kuno property zodi private hoy, tahole sei property child class access korte parbe na.Tobe **super call er maddhome parent class e patathe parbe.
         return hobbyDetails
     }
 }
@@ -30,7 +31,7 @@ class Footballer extends Player {
 
     training(stadium, hrs) {
         const trainingDetails = `${this.name} tarined in ${stadium} for ${hrs} hours`
-        //parent class Player e name property zodi private hoy, tahole sei property child class access korte parbe na.Tobe super call er maddhome parent class e patathe parbe.
+        //parent class Player e kuno property zodi private hoy, tahole sei property child class access korte parbe na.Tobe **super call er maddhome parent class e patathe parbe.
         return trainingDetails
     }
 
